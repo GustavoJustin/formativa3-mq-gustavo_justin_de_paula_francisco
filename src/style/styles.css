@@ -95,7 +95,7 @@ header h1 {
 }
 
 /* Mobile */
-@media screen and (max-width: 480px) or (orientation: portrait) {
+@media screen and (max-width: 480px) and (orientation: portrait) {
     .grid-pacotes {
         display: grid;
         grid-template-columns: 1fr;
